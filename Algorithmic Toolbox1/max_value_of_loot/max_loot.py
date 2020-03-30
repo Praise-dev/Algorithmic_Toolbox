@@ -6,7 +6,7 @@ def get_unit_values(W, V):
     unit_values =[]
     for i in range(n):
             if W[i] > 0:
-                unit_values.append(V[i] // W[i])
+                unit_values.append(V[i] / W[i])
             else:
                 unit_values.append(0)
     return unit_values
